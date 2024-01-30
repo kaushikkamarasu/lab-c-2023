@@ -9,9 +9,9 @@ int reverse(int x){
     return rev;
 }
 int main() {
-    int arr[10000];
 	int n,i;
 	scanf("%d",&n);
+	int arr[n];
 	for(i=0;i<n;i++){
 	    scanf("%d",&arr[i]);
 	}
